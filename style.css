@@ -31,5 +31,316 @@ html { box-sizing: border-box; }
 
 body {
 	margin: 0;
+	
+	font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
+
+h1, 
+h2,
+h3 {
+	font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  color: #3e606b;
+  line-height: 1.25;
+  
+  
+  
+}
+
+h1 {
+	font-size: 52px;
+
+}
+
+h2 {font-size: 36px;
+
+}
+
+h3 {font-size: 18px;
+
+}
+
+p {
+	font-size: 18px;
+	line-height: 1.5;
+	color: #242424	;
+}
+
+.hlavicka {display: flex;
+	justify-content: space-between ;
+	
+	max-width: 1100px;
+	margin: 30px auto;
+	
+
+}
+
+.logo {
+	width: 170px;
+}
+
+.menu {
+	display: flex;
+	list-style: none;
+	padding: 0;
+	
+}
+
+.menu a {text-decoration: none;
+	color: black;
+	border-radius: 20px;
+	padding: 10px 15px;
+
+}
+
+.menu a:hover  {
+	background-color: #f195b2;
+}
+
+.menu li {
+	
+	
+	
+} 
+
+.hero {
+	background-image: url(images/cupcake.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 728px;
+	
+	
+	
+} 
+
+.texthero {margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	max-width: 1100px;
+
+}
+
+.telo {margin: 0 auto;
+
+
+}
+
+.hero h1 {
+	font-size: 52px;
+	width: 80%;
+	color: white;
+	padding-top: 100px;
+	
+	text-align: left;
+	
+}
+
+.hero p {
+	font-size: 24px ;
+	font-style: italic;
+	width: 80%;
+	color: white;
+	
+	
+}
+
+.vitejte {
+	display: flex;
+	margin: 0 auto;
+	max-width: 1100px;
+	padding-top: 80px;
+}
+
+.vitejte p {
+	padding-right: 30px;
+	margin-bottom: 50px;
+}
+
+.tlacitkovyrobky  {padding: 15px 40px;
+	border-radius: 20px;
+	background-color: #f195b2;
+	text-decoration: none;
+	color: white;
+
+	
+}
+
+.cukrarka {
+	border-radius: 5px;
+}
+
+.tlacitkovyrobky:hover {
+	background-color: #d2567d	;
+}
+
+
+.nabidka {
+	max-width: 1100px;
+	margin: 80px auto;
+	padding: 80px 0; 
+	
+} 
+.nabidka h2 {
+	margin-top: 0;
+}
+
+.dnesninabidka {background-color: #f0f0f0	;
+	background-size: cover;
+
+}
+
+
+
+.produkty {
+	display: flex;
+	justify-content: center;
+	
+}
+
+.produkty img  {max-width: 260px;
+	
+}
+
+
+
+.produkt1 {
+	margin-right: 20px;
+	border-radius: 5px;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	flex-basis: 25%;
+}
+
+
+.produkt1 h3 {
+	padding: 20px 20px 0 20px;
+	text-align: center;
+	margin: 0;
+}
+.produkt1 p {padding: 20px 20px 0 20px;
+	text-align: center;
+	margin: 0;
+
+}
+
+.produkt2 {border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	margin-right: 20px;
+	flex-basis: 25%;
+}
+
+.produkt2 h3 {
+	padding: 20px 20px 0 20px;
+	text-align: center;
+	margin: 0;
+}
+.produkt2 p {padding: 20px 20px 0 20px;
+	text-align: center;
+	margin: 0;
+
+}
+
+.produkt3 {border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	margin-right: 20px;
+	flex-basis: 25%;
+
+
+
+}
+
+.produkt3 h3 {
+	padding: 20px 20px 0 20px;
+	text-align: center;
+	margin: 0;
+}
+.produkt3 p {padding: 20px 20px 0 20px;
+	text-align: center;
+	margin: 0;
+
+}
+
+.produkt4 {border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	flex-basis: 25%;
+
+
+
+
+}
+
+.produkt4 h3 {
+	padding: 20px 20px 0 20px;
+	text-align: center;
+	margin: 0;
+}
+.produkt4 p {padding: 20px 20px 20px 20px;
+	text-align: center;
+	margin: 0;
+
+}
+
+.dort {border-radius: 5px 5px 0 0;
+	
+}
+
+.livance {border-radius: 5px 5px 0 0;
+	
+
+}
+
+.kolac {
+	border-radius: 5px 5px 0 0;
+	
+}
+
+.buchticka {
+	border-radius: 5px 5px 0 0;
+	
+}
+
+.pristup  {
+	display: flex;
+	max-width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 80px;
+}
+
+.pristup h2,
+.pristup p {
+	margin-left: 30px;
+}
+
+.peceni  {
+	border-radius: 5px;
+}
+
+footer {
+	background-color: #303339	;
+	margin: 0;
+	padding: 30px;
+	text-align: center;
+	
+}
+
+footer p {color: white ;
+
+}
+
+
+
+
 
